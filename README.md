@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/43_signs.png "German Traffic Signs"
 [image5]: ./examples/color_set.png "color set"
 [image6]: ./examples/gray_set.png "gray set"
-[image7]: ./examples/norm_set.png "normalized set
+[image7]: ./examples/norm_set.png "normalized set"
 [image8]: ./examples/tran_sam_1.png "Transformation and augmentation"
 [image9]: ./examples/tran_sam_2.png "Transformation and augmentation"
 [image10]: ./examples/tran_sam_3.png "Transformation and augmentation"
