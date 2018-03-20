@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [image2]: ./examples/test_set.png "Visualization"
 [image3]: ./examples/valid_set.png "Visualization"
 [image4]: ./examples/43_signs.png "German Traffic Signs"
-[image5]: ./examples/color_Set.png "color set"
+[image5]: ./examples/color_set.png "color set"
 [image6]: ./examples/gray_set.png "gray set"
 [image7]: ./examples/norm_set.png "normalized set
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
