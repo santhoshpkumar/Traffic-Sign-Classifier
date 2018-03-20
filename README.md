@@ -48,6 +48,8 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ![alt text][image3]
 
+It can be observed that the distribution of the sample are similar across all 3 datasets. 
+
 Sample image of each of the 43 sign that are contained in the dataset.
 
 ![alt text][image4]
