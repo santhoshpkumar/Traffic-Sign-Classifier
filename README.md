@@ -155,15 +155,14 @@ The difficult of the sign is the No Vehicles labvel 15, A slight shadow can caus
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| Accuracy
+| Image | Prediction | Accuracy |
+| :---         |     :---:      |          ---: |
+| Speed Limit (30 km/hr)   |Speed Limit (30 km/hr)     | 1.000    |
+| Bumpy road     | Bumpy road       | 1.000      |
+| Ahead only	   | Ahead only	     | 1.000    |
+| No vehicles     | No vehicles       | 0.750      |
+| Go straight or left   | Go straight or left     | 0.800   |
 
-|:---------------------:|:---------------------------------------------:| 
-
-| Speed Limit (30 km/hr)      		| Speed Limit (30 km/hr)   									|   1.000
-| Bumpy road     			| Bumpy road 										|   1.000
-| Ahead only					| Ahead only											|   1.000
-| No vehicles	      		| No vehicles					 				|   0.750
-| Go straight or left			| Go straight or left      							| 0.800
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
 
