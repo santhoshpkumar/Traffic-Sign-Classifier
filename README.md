@@ -23,7 +23,17 @@ The goals / steps of this project are the following:
 [image10]: ./examples/tran_sam_3.png "Transformation and augmentation"
 [image11]: ./examples/test_samp.png "Sample Images"
 [image12]: ./examples/gray_samp.png "Sample Images"
-[image13]: ./examples/final_result.png "Sample Images"
+[image13]: ./examples/1.png "Sample Images"
+[image14]: ./examples/3.png "Sample Images"
+[image15]: ./examples/12.png "Sample Images"
+[image16]: ./examples/15.png "Sample Images"
+[image17]: ./examples/18.png "Sample Images"
+[image18]: ./examples/22.png "Sample Images"
+[image19]: ./examples/25.png "Sample Images"
+[image20]: ./examples/34.png "Sample Images"
+[image21]: ./examples/35.png "Sample Images"
+[image22]: ./examples/37.png "Sample Images"
+[image23]: ./examples/38.png "Sample Images"
 
 
 ## Rubric Points
@@ -149,7 +159,7 @@ After preprocessing
 
 ![alt text][image12]
 
-The difficult of the sign is the No Vehicles labvel 15, A slight shadow can cause the sign to be classifed as the other spped limit signs or any other sign with round border.
+The difficult of the sign is the "No Vehicles" label "15", A slight shadow can cause the sign to be classifed as the other speed limit signs or any other sign with round border.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -171,3 +181,23 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 The model is able to predict most of the images correctly and with 100% confidence. 
 
 ![alt text][image13]
+
+![alt text][image14]
+
+![alt text][image15]
+
+![alt text][image16]
+
+![alt text][image17]
+
+![alt text][image18]
+
+![alt text][image19]
+
+![alt text][image20]
+
+![alt text][image21]
+
+![alt text][image22]
+
+![alt text][image23]
