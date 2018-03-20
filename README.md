@@ -134,15 +134,29 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+LeNet -> It was simple and was already doing a prety good job of classifying number images
+
 * What were some problems with the initial architecture?
+The architecture was giving desired accuracy with german signal sign images
+
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+The model was adjusted to include one more convolution layer and additonaly included dropoffs at the full connected layers/
+
 * Which parameters were tuned? How were they adjusted and why?
+The pooling and sub sampling layers was tweeked to categorise 43 classes of the iamges from 32*32 size images
+
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+One important choice was to included dropoff which was bit restricitve given the small sample size, but with data agumentation it made the model to not overfit with agumented images. The agumented iamges were slight variation of the actual image. Without dropoff the model would have certainly be overfitted. It would have event led to memorization.
 
 If a well known architecture was chosen:
 * What architecture was chosen?
+LeNet
+
 * Why did you believe it would be relevant to the traffic sign application?
+It was simple efficient and had already proved effective in classifing numbers
+
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+It is surprising to see the model make 100% predictions on random test sample outside of the sample dataset. Given the fixed nature of the sign images this is a really good model.
  
 
 ### Test a Model on New Images
