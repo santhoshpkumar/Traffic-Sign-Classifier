@@ -15,9 +15,9 @@ The goals / steps of this project are the following:
 [image2]: ./examples/test_set.png "Visualization"
 [image3]: ./examples/valid_set.png "Visualization"
 [image4]: ./examples/43_signs.png "German Traffic Signs"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
+[image5]: ./examples/color_Set.png "color set"
+[image6]: ./examples/gray_set.png "gray set"
+[image7]: ./examples/norm_set.png "normalized set
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 ## Rubric Points
@@ -32,11 +32,11 @@ You're reading it! and here is a link to my [project code](https://github.com/sa
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is ?
-* The size of the validation set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
+* The size of training set is 34799
+* The size of the validation set is 4410
+* The size of test set is 12630
+* The shape of a traffic sign image is (32, 32, 3)
+* The number of unique classes/labels in the data set is 43
 
 #### 2. Include an exploratory visualization of the dataset.
 
@@ -58,11 +58,13 @@ Sample image of each of the 43 sign that are contained in the dataset.
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, I decided to convert the images to grayscale because ...
+As a first step of preprocesing, I decided to convert the images to grayscale because my earlier attempt to use the color images and contract addjustment did not produce a better result model. It might eventually get batter if agumented with more samples. Taking lead from earlier project of lane detection it made more sense to use the grayscale which might help in identifying patterns in the singages.
 
-Here is an example of a traffic sign image before and after grayscaling.
+Here is an example of random traffic sign images before and after grayscaling.
 
-![alt text][image2]
+![alt text][image5]
+
+![alt text][image6]
 
 As a last step, I normalized the image data because ...
 
