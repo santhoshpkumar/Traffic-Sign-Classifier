@@ -43,7 +43,9 @@ signs data set:
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in each of the test, train and validation set
 
 ![alt text][image1]
+
 ![alt text][image2]
+
 ![alt text][image3]
 
 Sample image of each of the 43 sign that are contained in the dataset.
