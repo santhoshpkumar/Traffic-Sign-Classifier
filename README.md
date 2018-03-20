@@ -11,10 +11,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
+[image1]: ./examples/data_set.png "Visualization"
+[image2]: ./examples/test_set.png "Visualization"
+[image3]: ./examples/valid_set.png "Visualization"
+[image4]: ./examples/43_signs.png "German Traffic Signs"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
@@ -32,17 +32,23 @@ You're reading it! and here is a link to my [project code](https://github.com/sa
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
-* The size of training set is 34799
-* The size of the validation set is 4410
-* The size of test set is 12630
-* The shape of a traffic sign image is (32, 32, 3)
-* The number of unique classes/labels in the data set is 43
+* The size of training set is ?
+* The size of the validation set is ?
+* The size of test set is ?
+* The shape of a traffic sign image is ?
+* The number of unique classes/labels in the data set is ?
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in each of the test, train and validation set
 
 ![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+
+Sample image of each of the 43 sign that are contained in the dataset.
+
+![alt text][image4]
 
 ### Design and Test a Model Architecture
 
