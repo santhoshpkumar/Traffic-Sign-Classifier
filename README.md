@@ -18,7 +18,10 @@ The goals / steps of this project are the following:
 [image5]: ./examples/color_set.png "color set"
 [image6]: ./examples/gray_set.png "gray set"
 [image7]: ./examples/norm_set.png "normalized set
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image8]: ./examples/tran_sam_1.png "Transformation and augmentation"
+[image9]: ./examples/tran_sam_2.png "Transformation and augmentation"
+[image10]: ./examples/tran_sam_3.png "Transformation and augmentation"
+
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -66,18 +69,25 @@ Here is an example of random traffic sign images before and after grayscaling.
 
 ![alt text][image6]
 
-As a last step, I normalized the image data because ...
+I decided to generate additional data because the given data set was small to train the model to get good accuracy. Given that the data set is of images or signs they remain constant and easy to creat copies with soem variations. 
 
-I decided to generate additional data because ... 
+To add more data to the the data set, I used the techinique of just random shifting the image, this mimics the true world where the image might be slightly at different angle as observed. At first I created 3 random shift copeis of the image, but this was still not sufficient and hence bumped the multiplier factory by 4. Each image gets 4 copies of the image with some shift transformations.
 
-To add more data to the the data set, I used the following techniques because ... 
+Here is an example of an original image and 4 set of augmented images:
 
-Here is an example of an original image and an augmented image:
+![alt text][image8]
 
-![alt text][image3]
+![alt text][image9]
 
-The difference between the original data set and the augmented data set is the following ... 
+![alt text][image10]
 
+The difference between the original data set and the augmented data set is that there is a shift in the image. OpenCV functions are used to get the resulted transform effect.
+
+As a last step, I normalized the image data so that all images follow a mean and the signs dont get distinguised differently. 
+
+Here is the random sample of normalized images.
+
+![alt text][image7]
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
