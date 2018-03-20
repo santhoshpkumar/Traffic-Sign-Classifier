@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
-You're reading it! and here is a link to my [project code](https://github.com/santhoshpkumar/TrafficSignClassifier/blob/master/Traffic_Sign_Classifier.ipynb)
+Here is a link to my [project code](https://github.com/santhoshpkumar/TrafficSignClassifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -109,14 +109,15 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I followed the original LeNet architecture. Just using the same architecture was giving validation accuracy of 89%. I added a additional convolution layer before flattening the image. The key to the model was to generate more data to train the model, these steps have already been explained. 
+I used EPOCH of 10 and pretty much followed as much of the LeNet lab, I randomly picked a batch size and finally settled with 164, not much analysis and experiment was done on that part. I used the AdamOptimizer with a learning rate of 0.00097. I also added dropout as suggested in the lecture with 50% dropout ratio.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* training set accuracy of 0.998
+* validation set accuracy of 0.959 
+* test set accuracy of 0.947
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
